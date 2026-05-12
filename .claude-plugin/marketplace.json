@@ -1,0 +1,20 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "becatjd",
+    "email": "becatjd@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "个人 Claude Code skill 集合",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "fp-breakdown",
+      "description": "根据系统功能描述拆分软件功能点（IFPUG: ILF/EIF/EI/EO/EQ），输出标准表格并写入 功能点清单.md",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/fp-breakdown"]
+    }
+  ]
+}
